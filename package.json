@@ -10,8 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/rsvalerio/pipeline-nodejs-component.git"
   },
-  "scripts":{
-    "npmrc": "printf \"_auth = $NPM_AUTH_TOKEN\nemail = $NPM_EMAIL\n\" > .npmrc"
+    "scripts": {
+    "test": "npm run actual-test && if [[ $CI_BRANCH =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then npm run npmrc && npm publish; fi",
+    "npmrc": "printf \"_auth = $NPM_AUTH_TOKEN\nemail = $NPM_EMAIL\n\" > .npmrc",
+    "actual-test": "mocha"
   },
   "author": "brunocau",
   "license": "ISC",
