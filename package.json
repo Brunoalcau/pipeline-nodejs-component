@@ -1,8 +1,11 @@
 {
   "name": "pipeline-nodejs-component",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "pipeline nodejs component",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://www.myget.org/F/pipelinenodejs/npm"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rsvalerio/pipeline-nodejs-component.git"
