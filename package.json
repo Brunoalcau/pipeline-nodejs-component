@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/rsvalerio/pipeline-nodejs-component.git"
   },
+  "scripts":{
+    "npmrc": "printf \"_auth = $NPM_AUTH_TOKEN\nemail = $NPM_EMAIL\n\" > .npmrc"
+  },
   "author": "brunocau",
   "license": "ISC",
   "bugs": {
