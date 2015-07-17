@@ -13,9 +13,6 @@
     "url": "https://github.com/rsvalerio/pipeline-nodejs-component/issues"
   },
   "homepage": "https://github.com/rsvalerio/pipeline-nodejs-component#readme",
-  "devDependencies": {
-    "npm-prepublish": "^1.2.0"
-  },
   "dependencies": {
     "express": "^4.13.1"
   }
