@@ -12,8 +12,5 @@
   "bugs": {
     "url": "https://github.com/rsvalerio/pipeline-nodejs-component/issues"
   },
-  "homepage": "https://github.com/rsvalerio/pipeline-nodejs-component#readme",
-  "dependencies": {
-    "express": "^4.13.1"
-  }
+  "homepage": "https://github.com/rsvalerio/pipeline-nodejs-component#readme"
 }
