@@ -1,3 +1,5 @@
+[ ![Codeship Status for prjcontinuousdelivery/pipeline-nodejs-component](https://codeship.com/projects/254fc070-12ab-0133-d6f3-022a2a1e39dc/status?branch=master)](https://codeship.com/projects/92583)
+
 This proct is a study for engineering software.
 =====================================
 
