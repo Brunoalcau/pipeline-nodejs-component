@@ -1,7 +1,7 @@
 This proct is a study for engineering software.
 ==================================
 
-We are using a public npm repository https://www.myget.org/F/pipelinenodejs/npm/
+We are using a public npm repository: https://www.myget.org/F/pipelinenodejs/npm/
 (considering pipeline nodejs component v2.0.0)
 
 
